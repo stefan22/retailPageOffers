@@ -4,8 +4,8 @@
 
 ### Obj: to move offers grid up the page above the fold to promote further engagement.      
 
-1.Variation (Prominent offers page)       
-2.Targeting:        
+#### 1.Variation (Prominent offers page)       
+#### 2.Targeting:        
    :black_small_square: domains:  www.quidco.com    
    :black_small_square: urls:     
       :small_red_triangle:             https://www.quidco.com/very/     
@@ -18,15 +18,15 @@
       :small_red_triangle:              https://www.quidco.com/boots     
       :small_red_triangle:              https://www.quidco.com/debenhams     
       :small_red_triangle:              https://www.quidco.com/house-of-fraser      
-3. Devices    
+#### 3. Devices    
     - Desktop    
     - Table   
     - Mobile    
-4. Browsers    
+#### 4. Browsers    
     - Chrome 45+    
     - Firefox 45+    
     - IE9+    
-5. Other:     
+#### 5. Other:     
    Logged in users ONLY.     
 
 
