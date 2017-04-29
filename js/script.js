@@ -40,7 +40,7 @@ externalScripts();
     SL.andRedEyelikeHAYS = {
     init: function() {
         this.pageCss();
-        this.movePrep();
+        this.moveEles();
         this.doList();
         this.doGrid();
      
@@ -61,7 +61,8 @@ externalScripts();
         addcss(mainCss);
     },//pageCss
 
-    movePrep: function() {
+    moveEles: function() {
+        console.info('%c moveEles \u221a','background:blue;color:white;');
         //two total
         var all = document.querySelectorAll('.col-sm-12.col-md-9');
         //list clone
@@ -83,19 +84,29 @@ externalScripts();
         //append clone grid
         gridTarget.parentElement.insertBefore(list,gridTarget);
 
+        //undesires
+        var rem = document.querySelectorAll('.col-sm-12.col-md-9');
+        rem[3].parentElement.removeChild(rem[3]);
+        var rem2 = document.querySelectorAll('.col-sm-12.col-md-9')[0].
+        children[4];
+        rem2.parentElement.removeChild(rem2);
+
+
 
 
     },//movePrep
 
+     doGrid: function() {
+        console.info('%c doGrid \u221a','background:blue;color:white;');
+
+    },//doGrid
+
     doList: function() {
+        console.info('%c doList \u221a','background:blue;color:white;');
+
+    }//doList
 
 
-    },//doList
-
-    doGrid: function() {
-
-
-    }//doGrid
     
 }; 
 
