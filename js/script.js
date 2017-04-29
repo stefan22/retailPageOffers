@@ -40,6 +40,9 @@ externalScripts();
     SL.andRedEyelikeHAYS = {
     init: function() {
         this.pageCss();
+        this.movePrep();
+        this.doList();
+        this.doGrid();
      
         
         
@@ -57,6 +60,42 @@ externalScripts();
         }
         addcss(mainCss);
     },//pageCss
+
+    movePrep: function() {
+        //two total
+        var all = document.querySelectorAll('.col-sm-12.col-md-9');
+        //list clone
+        var list = all[0].children[3].cloneNode(true);
+        list.id = "list";
+        list.className += " col-xs-12 col-sm-12 col-md-9";
+        //grid clone
+        var grid = all[1].cloneNode(true);
+        grid.id = "grid";
+        grid.className += " retailer-cashback-list retailer-cashback-list--online";
+        //both parents
+        var retpar = document.getElementById('retailer-template');
+        //list target
+        var listTarget = retpar.children[0].children[0].children[3];
+        //grid target
+        var gridTarget = retpar.children[1].children[0].children[0].children[0].children[1].children[0];
+        //append clone list
+        listTarget.parentElement.insertBefore(grid,listTarget);
+        //append clone grid
+        gridTarget.parentElement.insertBefore(list,gridTarget);
+
+
+
+    },//movePrep
+
+    doList: function() {
+
+
+    },//doList
+
+    doGrid: function() {
+
+
+    }//doGrid
     
 }; 
 
