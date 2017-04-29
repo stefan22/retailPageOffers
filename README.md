@@ -1,4 +1,4 @@
-# Quidco 
+# Quidco :boom:
 ## retailPageOffers ®
 ### test plan #QUI_10374
 
