@@ -55,10 +55,7 @@
   -   whether that footer section is needed
   
       
-<hr />  
-<br />
-<kbd>desktop</kbd> :mag:            
-![desktop](images/desktop.png)
+
  
 <hr />  
 <br />
@@ -67,7 +64,10 @@
  ![mobile](images/mobile.png)
 
 
-
+<hr />  
+<br />
+<kbd>desktop</kbd> :mag:            
+![desktop](images/desktop.png)
 
 
 
