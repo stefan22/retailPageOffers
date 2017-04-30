@@ -105,6 +105,18 @@ externalScripts();
 
     doList: function() {
         console.info('%c doList \u221a','background:blue;color:white;');
+        var banr = document.querySelector('.retailer-card--intro-panel.retailer-card--intro-panel-flipped.card-auto-height');
+        banr.parentElement.removeChild(banr);
+        //lower right banner
+        var more = document.getElementById('retailer-template');
+        var ban = more.children[1].children[0].children[0].children[0].children[0].children[0];
+        ban.parentElement.removeChild(ban);
+        //get rid of expires
+        var exp = document.querySelectorAll('.cashback-expires');
+        for (var i=0; i< exp.length; i++) {
+             //set exp display to none
+             exp[i].style.display = 'none';
+        }//goes thrgh list to set style.
 
     }//doList
 
