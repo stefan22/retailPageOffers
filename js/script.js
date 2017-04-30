@@ -50,7 +50,7 @@ externalScripts();
 
     pageCss: function() {
         console.info('%c pageCss \u221a','background:blue;color:white;');
-        var mainCss = '.product form .qv-snippet { height: 72px; }  .product  {max-height:581px !important; }';
+        var mainCss = '#grid {width:100%;padding:0; }  .xx {}';
         var head = document.getElementsByTagName('head')[0];
         function addcss(css) {
             var s = document.createElement('style');
@@ -98,6 +98,8 @@ externalScripts();
 
      doGrid: function() {
         console.info('%c doGrid \u221a','background:blue;color:white;');
+        var h = document.querySelectorAll('.col-sm-12.col-md-9')[0].
+        children[2].children[0].textContent = "Boots offers & cashback";
 
     },//doGrid
 
@@ -114,6 +116,6 @@ externalScripts();
     try {
         SL.andRedEyelikeHAYS.init();
     }
-      	catch(err) { console.log('%c found error: ' + err,'color:white;background:red;'); } 
+        catch(err) { console.log('%c found error: ' + err,'color:white;background:red;'); } 
     })();
 }.call(window.andRedEyelikeHAYS || {}));
