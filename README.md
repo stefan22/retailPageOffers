@@ -44,9 +44,10 @@
   -   removed 'expired in x number of hours' next to listing
   -   mobile qsearch header
   -   mobile done
-  -   added a new section to the footer
-  -     not sure if it was needed so did not add links
-        or made any more changes to it.
+  -   added 2 new section to the footer:
+         - one for the footer logo - no link
+         - another for new categories with links 
+  -     
         
 ####  other things for boots:
   -   cross browser checking
