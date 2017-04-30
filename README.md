@@ -62,12 +62,17 @@
   
  <kbd>mobile</kbd> :mag:        
  ![mobile](images/mobile.png)
-
-
-<hr />  
+ 
+ 
+ <hr />  
 <br />
-<kbd>desktop</kbd> :mag:            
-![desktop](images/desktop.png)
+  
+ <kbd>desktop</kbd> :mag:        
+ ![desktop](images/desktop.png)
+
+
+
+
 
 
 
