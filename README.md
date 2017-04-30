@@ -35,6 +35,17 @@
 ### integrations —» none     
 
 
+### Progress:
+  #### Boots:
+  -   moved grid to list and vice-versa
+  -   removed h1 above list
+  -   h1 above grid changed to "Boots offers.."
+  -   removed lower right banner
+  -   removed 'expired in x number of hours' next to listing
+  -   added a new section to the footer
+  -     not sure if it was needed so did not add links
+        or made any more changes to it. 
+      
 
 
 
