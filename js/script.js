@@ -45,6 +45,9 @@ externalScripts();
         this.doList();
         this.doGrid();
         this.newFoot();
+        this.quidFoot();
+     
+        
      
         
         
@@ -52,7 +55,7 @@ externalScripts();
 
     pgCssDesktop: function() {
         console.info('%c pgCssMobile \u221a','background:blue;color:white;');
-        var mainCss = '#grid {width:100%;padding:0; } .responsive-component-body {margin-top:30px;} #browse_footer {margin-top:0;} .linea {margin-top:0;border-top: 1px dotted rgba(211, 210, 210, 0.25);} .component1 a {color:#d3d2d2;}.component2 a {color:#d3d2d2;} .component3 a {color:#d3d2d2;} ';
+        var mainCss = '#grid {width:100%;padding:0; } .responsive-component-body {margin-top:30px;} #browse_footer {margin-top:0;} .linea {margin-top:0;border-top: 1px dotted rgba(211, 210, 210, 0.25);} .component1 a {color:#d3d2d2;} div#netotiate-hub-container {background-color:#231f20;} .component2 a {color:#d3d2d2;} .component3 a {color:#d3d2d2;} div#qfoot.logo.quidfoot a svg.main-logo {fill:white; margin-left:0;} #quidtext {font-size:14px; color:#fff; margin:1em 0 0 0; letter-spacing:1px; text-align:center;} #qfoot {padding:30px 0; margin:0 auto; text-align:center; background-color:#4f4c4c;} ';
         var head = document.getElementsByTagName('head')[0];
         function addcss(css) {
             var s = document.createElement('style');
@@ -65,7 +68,7 @@ externalScripts();
 
     pgCssMobile: function() {
         console.info('%c pgCssMobile \u221a','background:blue;color:white;');
-        var mobcss = '@media screen and (max-device-width:480px) {.linea {display:none;} .component1 a {color:#d3d2d2;} .component2 a {color:#d3d2d2;} .component3 a {color:#d3d2d2;} div.search-container {margin-left:0;} div.search-container .search input[type=search] {width:58%;} .search-container .search .nav-search-submit {border-left:1px solid #1d7bce; width:36px;} .search-container .search {width:96%;} h1 {font-size:28px;} .retailer-cashback-list .cashback-details .cashback-description {font-size:17px;} h2 {font-size:22px;} p.big {font-size:17px;} .display-ad-placement .display-ad-placement__container {background-color:#f1f1f1;} .icon-white-expand {width:20px; height:20px;} .icon-white-expand-bg {width:28px; height:28px;} }';
+        var mobcss = '@media screen and (max-device-width:480px) {.linea {display:none;} .component1 a {color:#d3d2d2;} .component2 a {color:#d3d2d2;} .component3 a {color:#d3d2d2;} div.search-container {margin-left:0;} div.search-container .search input[type=search] {width:58%;} .search-container .search .nav-search-submit {border-left:1px solid #1d7bce; width:36px;} .search-container .search {width:96%;} h1 {font-size:28px;} .retailer-cashback-list .cashback-details .cashback-description {font-size:17px;} h2 {font-size:22px;} p.big {font-size:17px;} .display-ad-placement .display-ad-placement__container {background-color:#f1f1f1;} .icon-white-expand {width:20px; height:20px;} .icon-white-expand-bg {width:28px; height:28px;} div.display-ad-placement.display-ad-placement--horizontal > div.container {padding-left:10px;}  }';
         var head1 = document.getElementsByTagName('head')[0];
         function addMobcss(css) {
             var s = document.createElement('style');
@@ -137,6 +140,7 @@ externalScripts();
     },//doList
 
     newFoot: function() {
+        console.info('%c newFoot \u221a','background:blue;color:white;');
         var newfo = document.createElement('div');
         newfo.id = "newfoot";
         newfo.className = "row";
@@ -146,10 +150,25 @@ externalScripts();
         var foot = document.getElementById('footer').children[0].children[0];
         //append
         foot.parentElement.insertBefore(newfo,foot);
+        //removing discover
+        var disco = document.getElementsByClassName('discover-icon')[0];
+        disco.parentElement.removeChild(disco);
 
 
-    }//newFoot
+    },//newFoot
 
+    quidFoot: function() {
+        console.info('%c quidFoot \u221a','background:blue;color:white;');
+        var div = document.createElement('div');
+        div.className = "row";
+        div.innerHTML = ' <div id="qfoot" class="logo quidfoot"> <a href="/" style="outline: 0px;"> <svg class="main-logo"> <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-logo"></use> </svg> </a><p id="quidtext">Rewarding shopping everyday!</p></div> ';
+
+        var contar = document.querySelectorAll('.container')[12];
+        var par = contar.parentElement;
+        par.insertBefore(div,contar);
+
+
+    }//quidFoot
     
 }; 
 
