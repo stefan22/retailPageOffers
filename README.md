@@ -57,14 +57,13 @@
       
 <hr />  
 <br />
-<kbd>desktop</kbd> :mag:
+<kbd>desktop</kbd> :mag:            
 ![desktop](images/desktop.png)
  
- 
-  <hr />  
+<hr />  
 <br />
   
- <kbd>mobile</kbd> :mag:
+ <kbd>mobile</kbd> :mag:        
  ![mobile](images/mobile.png)
 
 
