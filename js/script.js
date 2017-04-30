@@ -51,7 +51,7 @@ externalScripts();
 
     pageCss: function() {
         console.info('%c pageCss \u221a','background:blue;color:white;');
-        var mainCss = '#grid {width:100%;padding:0; } .responsive-component-body {margin-top:30px;} #browse_footer {margin-top:0;} .linea {margin-top:0;border-top: 1px dotted rgba(211, 210, 210, 0.25);} .component1 a {color:#d3d2d2;}.component2 a {color:#d3d2d2;} .component3 a {color:#d3d2d2;} } @media screen and (max-device-width:480px) {.linea {display:none;} .component1 a {color:#d3d2d2;} .component2 a {color:#d3d2d2;} .component3 a {color:#d3d2d2;} }';
+        var mainCss = '#grid {width:100%;padding:0; } .responsive-component-body {margin-top:30px;} #browse_footer {margin-top:0;} .linea {margin-top:0;border-top: 1px dotted rgba(211, 210, 210, 0.25);} .component1 a {color:#d3d2d2;}.component2 a {color:#d3d2d2;} .component3 a {color:#d3d2d2;} @media screen and (max-device-width:480px) {.linea {display:none;} .component1 a {color:#d3d2d2;} .component2 a {color:#d3d2d2;} .component3 a {color:#d3d2d2;} div.search-container {margin-left:0;} div.search-container .search input[type=search] {width:58%;} .search-container .search .nav-search-submit {border-left:1px solid #1d7bce; width:36px;} .search-container .search {width:96%;} }';
         var head = document.getElementsByTagName('head')[0];
         function addcss(css) {
             var s = document.createElement('style');
