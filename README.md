@@ -46,14 +46,14 @@
   -   mobile done
   -   added 2 new section to the footer:
          - one for the footer logo - no link
-         - another for new categories with links 
-  -     
+         - another for new categories with links
+  -   fixed existing footer and links according to psd
         
 ####  other things for boots:
   -   cross browser checking
   -   tablet
   -   goals
-  -   whether that footer section is needed
+  -   whether that footer section was needed or not.
   
   
       
