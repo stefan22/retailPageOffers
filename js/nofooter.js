@@ -16,7 +16,7 @@
 
     pgCssDesktop: function() {
         console.info('%c pgCssMobile \u221a','background:blue;color:white;');
-        var mainCss = '#grid {width:100%;padding:0; } .responsive-component-body {margin-top:30px;} #browse_footer {margin-top:0;} .linea {margin-top:0;border-top: 1px dotted rgba(211, 210, 210, 0.25);width:90%;margin-left:20px;} .component1 a {color:#d3d2d2;} div#netotiate-hub-container {background-color:#231f20;} .component2 a {color:#d3d2d2;} .component3 a {color:#d3d2d2;} div#qfoot.logo.quidfoot a svg.main-logo {fill:white; margin-left:0;} #quidtext {font-size:14px; color:#fff; margin:1em 0 0 0; letter-spacing:1px; text-align:center;} #qfoot {padding:30px 0; margin:0 auto; text-align:center; background-color:#4f4c4c;} .responsive-component-body1 {margin-top:10px;} .hov:hover {background-color:red;} .joman {margin-right:-106px;} .joman:hover {margin-right:0px !important;} .cotton::after{content: "Shop online";}.cotton{padding:8.5px 12px;font-size:12px;line-height:1;background:blue;color:white;text-align:centered; position:absolute; top:0; left:0;} .retailer-cashback-list {width:100% !important; padding:0;} ';
+        var mainCss = 'div#grid {width:100%;padding:0; } .responsive-component-body {margin-top:30px;} #browse_footer {margin-top:0;} .linea {margin-top:0;border-top: 1px dotted rgba(211, 210, 210, 0.25);width:90%;margin-left:20px;} .component1 a {color:#d3d2d2;} div#netotiate-hub-container {background-color:#231f20;} .component2 a {color:#d3d2d2;} .component3 a {color:#d3d2d2;} div#qfoot.logo.quidfoot a svg.main-logo {fill:white; margin-left:0;} #quidtext {font-size:14px; color:#fff; margin:1em 0 0 0; letter-spacing:1px; text-align:center;} #qfoot {padding:30px 0; margin:0 auto; text-align:center; background-color:#4f4c4c;} .responsive-component-body1 {margin-top:10px;} .retailer-cashback-list {width:100% !important; padding:0;} ';
         var head = document.getElementsByTagName('head')[0];
         function addcss(css) {
             var s = document.createElement('style');
@@ -99,6 +99,14 @@
         console.info('%c doGrid \u221a','background:blue;color:white;');
         var h = document.querySelectorAll('.col-sm-12.col-md-9')[0].
         children[2].children[0].textContent = "Boots offers & cashback";
+        //arrow
+        var x = document.querySelectorAll('.cashback-heading svg.proposition-icon.heading-icon');
+        var arrow = x[0];
+        arrow.parentElement.removeChild(arrow);
+        var gr = document.getElementById('grid');
+        gr.style.padding = "0px";
+
+
 
     },//doGrid
 
@@ -109,21 +117,10 @@
         //lower right banner
         var more = document.getElementById('retailer-template');
         var ban = more.children[1].children[0].children[0].children[0].children[0].children[0];
-        ban.parentElement.removeChild(ban);
-        
+        ban.parentElement.removeChild(ban);        
         var cas = document.querySelectorAll('.cashback-items')[0].children;
-       
-        // for (var i=0; i < cas.length; i++) {
-        //     cas[i].classList.add('cotton');
-        //     //cas[i].children[2].children[1].classList.add('joman');
 
-        // }
-
-
-
-
-
-
+    
 
     },//doList
 
