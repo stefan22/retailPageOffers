@@ -73,6 +73,19 @@
  ![desktop](images/desktop.png)
 
 
+functionality checked:
+- carousel by top navigation :ok:
+- carousel for similar retailers :ok:
+- adverb under menu does not work < 320px only for control and variation 1 (atm is hidden for 320px <)
+- terms and conditions popup for grid :ok:
+- list mouse over :ok:
+- stats popup :ok:
+- remove/add favorite CTA :ok:
+- remove/add favorite grid panel :ok:
+- remove/add CTA/Panel working together :ok:
+- above footer adverb sticks out under 320px - control and variation1
+- cookie for boots only atm :ok:
+
 
 
 
