@@ -1,31 +1,30 @@
 # Quidco :boom:
-## retailPageOffers ®
+
+## retailPageOffers (V1)
 
 
-### Obj: to move offers grid up the page above the fold to promote further engagement.      
-
-#### 1.Variation (Prominent offers page)       
+### objective
+Moving the offers grid up the page to sit above the fold will encourage further engagement with both the offers grid and online rates list because it enables users to view offers at first glance.      
     
 #### 3. Devices    
-    - Desktop    
-    - Table   
-    - Mobile    
+- Desktop    
+- Table   
+- Mobile    
 #### 4. Browsers    
-    - Chrome 45+    
-    - Firefox 45+    
-    - IE9+    
+- Chrome 45+    
+- Firefox 45+    
+- IE9+    
 #### 5. Other:     
-   Logged in users ONLY.     
+- Logged in users ONLY.     
 
  
- <br />
+ <br/>
  <kbd>mobile :notebook:</kbd> :mag:        
  ![mobile](images/mobile.png)
  
  
- <hr />  
-<br />
-  
+<hr/>  
+<br/>
  <kbd>desktop :notebook:</kbd> :mag:        
  ![desktop](images/desktop.png)
 
