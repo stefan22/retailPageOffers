@@ -19,14 +19,25 @@ Moving the offers grid up the page to sit above the fold will encourage further 
 
  
  <br/>
- <kbd>mobile :notebook:</kbd> :mag:        
- ![mobile](images/mobile.png)
+ <kbd>control mobile :notebook:</kbd> :mag:        
+ ![mobile](sourceRPO/02.%20Variations/Control%20Mobile.png)
  
  
 <hr/>  
 <br/>
- <kbd>desktop :notebook:</kbd> :mag:        
- ![desktop](images/desktop.png)
+ <kbd>control desktop :notebook:</kbd> :mag:        
+ ![desktop](sourceRPO/02.%20Variations/Control%20Desktop.png)
+ 
+ 
+  <br/>
+ <kbd>V1 mobile :notebook:</kbd> :mag:        
+ ![mobile](sourceRPO/02.%20Variations/V1%20Mobile.png)
+ 
+ 
+<hr/>  
+<br/>
+ <kbd>V1 desktop :notebook:</kbd> :mag:        
+ ![desktop](sourceRPO/02.%20Variations/V1%20Desktop.png)
 
 
 functionality checked:
