@@ -20,13 +20,13 @@ Moving the offers grid up the page to sit above the fold will encourage further 
  
  <br/>
  <kbd>control mobile :notebook:</kbd> :mag:        
- ![](sourceRPO/02.%20Variations/Control%20Mobile.png)
+ ![](/sourceRPO/02.%20Variations/Control%20Mobile.png)
  
  
 <hr/>  
 <br/>
  <kbd>control desktop :notebook:</kbd> :mag:        
- ![](sourceRPO/02.%20Variations/Control%20Desktop.png)
+ ![](/sourceRPO/02.%20Variations/Control%20Desktop.png)
  
  
   <br/>
